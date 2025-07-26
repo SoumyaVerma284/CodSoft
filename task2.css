@@ -1,0 +1,103 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial,sans-serif;
+}
+
+body{
+    background-color:#f4f8fb;
+    color:#333;
+}
+
+.container{
+    width:90%;
+    max-width:1200px;
+    margin:auto;
+}
+
+header{
+    background-color:#1e6091;
+    color:#fff;
+    padding:20px 0;
+}
+
+header h1{
+    display:inline-block;
+}
+
+nav a{
+    color:white;
+    margin-left:20px;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+.hero{
+    background:
+    url('https://media.istockphoto.com/id/1302606555/photo/closeup-of-hands-of-young-female-pharmacist-checking-inventory-in-medical-store-using-digital.jpg?s=1024x1024&w=is&k=20&c=-r8wxKkcImoHvywQ1rxUpm0Z_1JXYxy6aET63p__4f0=')
+    center/cover no-repeat;
+    padding:100px 0;
+    color:black;
+    text-align:center;
+}
+
+.hero h2{
+    font-size:36px;
+    margin-bottom:10px;
+}
+
+.hero p{
+    font-size:18px;
+}
+
+.products{
+    padding:60px 0;
+    text-align:center;
+}
+
+.products h3{
+    font-size:28px;
+    margin-bottom:30px;
+    color:#1e6091;
+}
+
+.product-grid{
+    display:flex;
+    flex-wrap:wrap;
+    gap:20px;
+    justify-content:center;
+}
+
+.product-card{
+    background:white;
+    border-radius:10px;
+    padding:20px;
+    width:250px;
+    box-shadow:0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.product-card img{
+    width:60%;
+    border-radius:8px;
+}
+
+.contact{
+    background-color:#caf0f8;
+    padding:50px 0;
+    text-align:center;
+}
+
+.contact h3{
+    font-size:26px;
+    margin-bottom:20px;
+    color:#0077b6;
+}
+
+footer{
+    background-color:#1e6091;
+    color:white;
+    text-align:center;
+    padding:20px;
+    margin-top:50px;
+}

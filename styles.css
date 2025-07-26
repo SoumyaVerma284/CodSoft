@@ -1,0 +1,97 @@
+:root{
+  --body-bg:#f4f6f9;
+  --header-bg:#1f2937;
+  --footer-bg:#111827;
+  --accent-color:#3b82f6;
+  --text-color:#1e293b;
+  --white:#ffffff;
+}
+body {
+  font-family: Arial, sans-serif;
+  color:var(--text-color);
+  margin: 0;
+  background-color: var(--body-bg);
+  padding: 0;
+}
+
+header {
+  background-color: var(--header-bg);
+  color: var(--white);
+  text-align: center;
+  padding: 20px 0;
+}
+
+header h1{
+  margin:0;
+}
+#about1{
+  text-align:center;
+  padding:1px 0;
+}
+#about{
+  text-align:center;
+  padding:20px 0;
+}
+#about img{
+  width:90px;
+  border-radius:30%;
+}
+#skills{
+  text-align:center;
+  padding:10px 0;
+}
+#skills ul{
+  list-style:none;
+  padding-left:0;
+  text-align:center;
+}
+#skills li{
+  display:inline-block;
+  margin:10px;
+  padding:10px 20px;
+  background:#e0f7fa;
+  border-radius:5px;
+}
+#projects{
+  text-align:center;
+  padding:20px 0;
+}
+.project{
+  margin:20px 0;
+  background:#fff;
+  padding:15px;
+  border-radius:5px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+
+}
+.project img{
+  max-width:50%;
+  border-radius:5px;
+}
+#resume{
+  text-align:center;
+  padding:20px 0;
+}
+#resume a{
+  display:inline-block;
+  margin-top:10px;
+  padding:10px 20px;
+  background:#0077b6;
+  color:white;
+  text-decoration:none;
+  border-radius:5px;
+}
+#contact{
+  text-align:center;
+  padding:20px 0;
+}
+#contact p{
+  margin:5px 0;
+}
+footer{
+  background:var(--footer-bg);
+  color:var(--white);
+  text-align:center;
+  padding:20px;
+  margin-top:40px;
+}
